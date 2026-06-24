@@ -197,6 +197,9 @@
     border-bottom:1px solid var(--line);
   }
   .ph::after{content:attr(data-ph);font-size:13px;letter-spacing:.12em;border:1px dashed #b7b1a3;border-radius:7px;padding:7px 13px;background:rgba(255,255,255,.55)}
+  .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .45s ease}
+  .ph.has-img img{opacity:1}
+  .ph.has-img::after{display:none}
   .card-b{padding:24px 24px 28px}
   .card-b h3{font-family:var(--serif);font-size:22px;letter-spacing:.05em;margin-bottom:10px}
   .card-b p{font-size:15px;color:var(--stone);line-height:1.85}
@@ -399,7 +402,7 @@
     <div class="app-grid">
 
       <article class="card rv">
-        <div class="ph" data-ph="待替换：中式园林置石实拍"></div>
+        <div class="ph" data-ph="中式园林置石实拍"><img src="img/yuanlin-zhishi.jpg" alt="黑山石中式园林置石" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
         <div class="card-b">
           <h3>中式园林置石</h3>
           <p>黑山石做主景置石、孤赏石，与白墙、竹影、流水相映，正合中式园林"瘦、漏、透、皱"的赏石意趣，是叠山理水的经典用料。</p>
@@ -408,7 +411,7 @@
       </article>
 
       <article class="card rv">
-        <div class="ph" data-ph="待替换：市政公园景墙实拍"></div>
+        <div class="ph" data-ph="市政公园景墙实拍"><img src="img/shizheng-gongyuan.jpg" alt="黑山石市政园林公园景观石" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
         <div class="card-b">
           <h3>市政园林 · 公园</h3>
           <p>城市公园、道路绿化带、广场景观节点常用黑山石做入口景石、刻字标识石与绿地点缀，耐候耐压、整体大气，符合市政工程长久使用要求。</p>
@@ -417,7 +420,7 @@
       </article>
 
       <article class="card rv">
-        <div class="ph" data-ph="待替换：黑山石假山实拍"></div>
+        <div class="ph" data-ph="黑山石假山实拍"><img src="img/jiashan.jpg" alt="黑山石假山叠石" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
         <div class="card-b">
           <h3>假山 · 叠石</h3>
           <p>黑山石块面层次丰富，适合堆叠假山、塑造山形水势。大小料搭配可成峰、成壁、成洞，营造层峦叠嶂的自然山景。</p>
@@ -426,7 +429,7 @@
       </article>
 
       <article class="card rv">
-        <div class="ph" data-ph="待替换：驳岸水景实拍"></div>
+        <div class="ph" data-ph="驳岸水景实拍"><img src="img/boan-shuijing.jpg" alt="黑山石驳岸水景石" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
         <div class="card-b">
           <h3>驳岸 · 水景</h3>
           <p>水池、溪流、湖岸沿线用黑山石做驳岸护坡与点景，自然的岸线收口让水景更显灵动，黑色石面在水中倒影尤为耐看。</p>
@@ -435,7 +438,7 @@
       </article>
 
       <article class="card rv">
-        <div class="ph" data-ph="待替换：刻字招牌石实拍"></div>
+        <div class="ph" data-ph="刻字招牌石实拍"><img src="img/kezi-shi.jpg" alt="黑山石刻字招牌石" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
         <div class="card-b">
           <h3>刻字 · 招牌石</h3>
           <p>景区、楼盘、企业、村口标识常选黑山石做刻字石、招牌石。黑底配描红或描金字体，庄重醒目，可按尺寸与字样定制加工。</p>
@@ -444,7 +447,7 @@
       </article>
 
       <article class="card rv">
-        <div class="ph" data-ph="待替换：汀步铺装实拍"></div>
+        <div class="ph" data-ph="汀步铺装实拍"><img src="img/tingbu.jpg" alt="黑山石汀步铺装" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
         <div class="card-b">
           <h3>汀步 · 铺装</h3>
           <p>切割成块的黑山石可做汀步石、园路铺装与景观收边，表面可保留自然面或做火烧面、光面，质感沉稳，与草坪、水面对比鲜明。</p>
@@ -460,7 +463,7 @@
 <section class="court" id="court">
   <div class="wrap">
     <div class="split">
-      <div class="ph rv" data-ph="待替换：私家庭院实景图"></div>
+      <div class="ph rv" data-ph="私家庭院实景图"><img src="img/tingyuan.jpg" alt="黑山石私家庭院造景" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
       <div class="txt rv">
         <span class="sec-label">私家庭院</span>
         <h2>方寸庭院间，<br>一石即一景</h2>
@@ -521,10 +524,10 @@
       <p class="sec-sub">部分园林工程、市政项目与庭院案例展示（请替换为真实项目照片，实拍最能建立信任）。</p>
     </div>
     <div class="case-grid">
-      <div class="ph rv" data-ph="案例图 01"></div>
-      <div class="ph rv" data-ph="案例图 02"></div>
-      <div class="ph rv" data-ph="案例图 03"></div>
-      <div class="ph rv" data-ph="案例图 04"></div>
+      <div class="ph rv" data-ph="案例图 01"><img src="img/case-01.jpg" alt="黑山石工程案例一" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
+      <div class="ph rv" data-ph="案例图 02"><img src="img/case-02.jpg" alt="黑山石工程案例二" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
+      <div class="ph rv" data-ph="案例图 03"><img src="img/case-03.jpg" alt="黑山石工程案例三" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
+      <div class="ph rv" data-ph="案例图 04"><img src="img/case-04.jpg" alt="黑山石工程案例四" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
     </div>
   </div>
 </section>
@@ -544,7 +547,7 @@
           <div><b>全国</b><span>工程整车发货</span></div>
         </div>
       </div>
-      <div class="ph rv" data-ph="待替换：矿口/料场实拍（最关键）"></div>
+      <div class="ph rv" data-ph="矿口 / 料场实拍"><img src="img/kuangkou.jpg" alt="黑山石源头矿口料场" loading="lazy" onload="this.parentElement.classList.add('has-img')"></div>
     </div>
   </div>
 </section>
