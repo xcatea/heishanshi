@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#15171a"/>
+  <path d="M6 50 L20 30 L30 42 L40 24 L58 50 Z" fill="#33373d"/>
+  <rect x="20" y="14" width="24" height="24" rx="5" fill="#9c3327"/>
+  <text x="32" y="32" font-family="serif" font-size="17" fill="#fff" text-anchor="middle" dominant-baseline="central">石</text>
+</svg>
